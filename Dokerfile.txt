@@ -1,0 +1,9 @@
+FROM python:3.8
+
+WORKDIR /var/src/app
+
+COPY README.md .
+COPY sprints.py .
+COPY Disable login.JPG .
+COPY sshd.sh .
+
