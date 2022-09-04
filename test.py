@@ -2,7 +2,7 @@ target = __import__("sprints.py")
 MyFunc= target.MyFunc
 import unittest
 import statistics
-from sprints import MyFunc
+from Sprints-DevOps import MyFunc
 class TestSum(unittest.TestCase):
     def test_list_int(self):
         data = [10, 20, 30]
